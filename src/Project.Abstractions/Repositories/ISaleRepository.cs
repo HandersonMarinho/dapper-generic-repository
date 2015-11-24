@@ -2,7 +2,7 @@
 
 namespace Project.Abstractions.Repositories
 {
-    interface ISaleRepository
+    public interface ISaleRepository
     {
         void Add(ISale sale);
         void Cancel(ISale sale);

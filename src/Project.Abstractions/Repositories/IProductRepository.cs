@@ -2,7 +2,7 @@
 
 namespace Project.Abstractions.Repositories
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         void Add(IProduct product);
         IProduct[] GetAll();

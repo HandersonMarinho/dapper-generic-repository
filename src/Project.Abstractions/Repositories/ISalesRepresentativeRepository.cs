@@ -2,7 +2,7 @@
 
 namespace Project.Abstractions.Repositories
 {
-    interface ISalesRepresentativeRepository
+    public interface ISalesRepresentativeRepository
     {
         void Add(ISaleRepresentative salesRep);
         ISaleRepresentative GetById(int salesRepId);
